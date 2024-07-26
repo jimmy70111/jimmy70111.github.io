@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <!-- Lightbox2 CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet" />
     <style>
         .certificate-image {
             width: 200px; /* Set width as needed */
@@ -61,13 +63,19 @@
                 </header>
                 <section class="tiles">
                     <span class="image">
-                        <img src="images/college.png" alt="" class="certificate-image"/>
+                        <a href="images/college.png" data-lightbox="certificates" data-title="College Certificate">
+                            <img src="images/college.png" alt="" class="certificate-image"/>
+                        </a>
                     </span>
                     <span class="image">
-                        <img src="images/hs.png" alt="" class="certificate-image"/>
+                        <a href="images/hs.png" data-lightbox="certificates" data-title="High School Certificate">
+                            <img src="images/hs.png" alt="" class="certificate-image"/>
+                        </a>
                     </span>
                     <span class="image">
-                        <img src="images/middle.png" alt="" class="certificate-image"/>
+                        <a href="images/middle.png" data-lightbox="certificates" data-title="Middle School Certificate">
+                            <img src="images/middle.png" alt="" class="certificate-image"/>
+                        </a>
                     </span>
                 </section>
             </div>
@@ -99,5 +107,7 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <!-- Lightbox2 JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
 </body>
 </html>
