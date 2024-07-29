@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Current Development Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        header a:hover {
+            text-decoration: underline;
+        }
+        nav#menu {
+            background: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+        }
+        nav#menu ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav#menu ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav#menu ul li a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        nav#menu ul li a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        footer .icons a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        footer .icons a:hover {
+            text-decoration: underline;
+        }
+        footer ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <a href="index.html">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+    </header>
+
+    <!-- Menu -->
+    <nav id="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="certificates.html">Diplomas & Certificates</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="currentproject.html">Current Development</a></li>
+
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <section>
+        <h1>Current Development Project</h1>
+        <p>Explore the project I'm currently working on.</p>
+
+        <h2>Project Overview</h2>
+        <p>Details about the current project, its objectives, and key features.</p>
+
+        <h2>Technologies Used</h2>
+        <h3>AWS (Amazon Web Services)</h3>
+        <p>Hosting: Utilize AWS services to host the application with high availability and reliability.</p>
+
+        <h3>Spring Boot with Maven</h3>
+        <p>Framework: Use Spring Boot to build a robust, production-ready application. It simplifies the development of Java-based microservices.</p>
+        <p>Dependency Management: Manage project dependencies and build processes with Maven. It aids in organizing the project and handling library versions.</p>
+
+        <h3>Microservices Architecture</h3>
+        <p>Modular Design: Decompose the application into distinct microservices to handle various functionalities:</p>
+        <ul>
+            <li>User Management: Handle user registrations, logins, and profiles.</li>
+            <li>Item Management: Manage item listings, descriptions, and pricing.</li>
+            <li>Shipping Service: Track and manage shipping information.</li>
+            <li>Payment Service: Oversee transactions and payment processing.</li>
+        </ul>
+
+        <h3>Integration</h3>
+        <p>APIs: Define RESTful APIs to enable communication between microservices and the front-end.</p>
+
+        <h3>Database Design</h3>
+        <p>MySQL: Manage data related to items, users, orders, and payments.</p>
+
+        <h3>Back-End Services (Java)</h3>
+        <p>Spring Boot Microservices: Create microservices for different application aspects:</p>
+        <ul>
+            <li>Item Service: Perform CRUD operations for items.</li>
+            <li>Order Service: Manage customer orders and their statuses.</li>
+            <li>Shipping Service: Track and manage shipping details.</li>
+            <li>Payment Service: Process payments and manage payment information.</li>
+        </ul>
+
+        <h3>Front-End</h3>
+        <p>Technology Stack: Use JavaScript for the front end of the project.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <footer id="contact">
+        <div class="inner">
+            <section>
+                <h2>Contact Me!</h2>
+                <ul class="icons">
+                    <li><a href="https://www.linkedin.com/in/jimmy-jiang-062abb1b7/" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                    <li><a href="https://github.com/jimmy70111" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+                    <li><a href="mailto:jimmyjiang70@gmail.com" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+                    <li><a href="tel:267-939-0685" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
+                </ul>
+            </section>
+            <ul class="copyright">
+                <li>&copy; 2024 Jimmy Jiang. All rights reserved.</li>
+            </ul>
+        </div>
+    </footer>
+    
+</body>
+</html>
